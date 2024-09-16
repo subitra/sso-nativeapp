@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import { GoogleSignin, GoogleSigninButton, statusCodes, isErrorWithCode, isSuccessResponse } from '@react-native-google-signin/google-signin';
 
 GoogleSignin.configure({
-  "webClientId": "518551345305-1duc6n6ci4cl7t26i61c3b3elf5fs3mm.apps.googleusercontent.com"
+  "webClientId": "#webclientid from google-services.json type 3"
 });
 
 export default function App() {
