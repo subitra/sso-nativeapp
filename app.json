@@ -2,6 +2,18 @@
   "expo": {
     "name": "my-app-v2",
     "slug": "my-app-v2",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "android": {
+      "package": "com.anonymous.myappv2",
+      "googleServicesFile": "./google-services.json"
+    },
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "46bf4bb0-3d50-4414-8971-aaf20f91a3c6"
+      }
+    }
   }
 }
